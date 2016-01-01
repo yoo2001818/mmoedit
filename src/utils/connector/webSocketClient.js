@@ -1,6 +1,7 @@
 // WebSocket client; Connects to a WebSocket server.
 import Connector from './index';
-import WebSocket from 'ws';
+// WebSocket is natively supported by browser
+// import WebSocket from 'ws';
 import * as TransportActions from '../../action/transport';
 import rawDebug from 'debug';
 import omit from 'lodash.omit';
